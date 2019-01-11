@@ -68,3 +68,28 @@ $link-hover: #222;
     }
   }
 }
+.head-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 20%;
+}
+.navbar.is-warning, .hero-body {
+  background-color: grey;
+}
+.navbar.is-warning .navbar-brand > a.navbar-item:hover {
+  background: black;
+}
+.title {
+  color: white;
+}
+.button.is-warning {
+  background: grey;
+  color: white;
+}
+.button.is-warning:hover {
+  background: black;
+  color: white;
+}
+.hero.is-warning .title {
+    color: white;
+}

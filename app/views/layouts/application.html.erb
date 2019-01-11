@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flanger</title>
+    <title>REDCAT INDIA</title>
     <%= csrf_meta_tags %>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,7 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application' %>
   </head>
+  <%= favicon_link_tag 'favi.jpeg' %>
 
   <body class="<%= yield (:body_class) %>">
     <% if flash[:notice] %>
@@ -24,10 +25,11 @@
     <% end %>
      <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
+        <%= image_tag 'favi.jpeg', class:"head-img" %>
         <%= link_to root_path, class:"navbar-item" do %>
-          <h1 class="title is-5">Flanger</h1>
+          <h1 class="title is-5">REDCAT INDIA</h1>
         <% end  %>
-      <div class="navbar-burger burger" data-target="navbar">
+      <div class="navbar-burger burger" data-target="navbar-end">
         <span></span>
         <span></span>
         <span></span>
